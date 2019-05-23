@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\FragmentShaders">
+      <UniqueIdentifier>{af935c4e-b259-488c-8dfb-7e122c7c8e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\VertexShaders">
+      <UniqueIdentifier>{df4f85f2-82ec-48af-be40-eef6039096cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GeometryShaders">
+      <UniqueIdentifier>{b3fb17e5-ad00-464c-94c1-339f4173af36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawing">
+      <UniqueIdentifier>{c10cf11c-1cad-464f-9378-5e26ac2fea8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MTReader">
+      <UniqueIdentifier>{4e7b9b13-c596-4670-9088-beda99c42af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window and Controlls">
+      <UniqueIdentifier>{3d30d458-ae48-4143-89a4-23d2da92d122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Data">
+      <UniqueIdentifier>{d5576944-2507-4f5c-96b7-b0b2cc54f355}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MTReader.cpp">
+      <Filter>Source Files\MTReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Window and Controlls</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files\Drawing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MTReader.h">
+      <Filter>Source Files\MTReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files\Window and Controlls</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Source Files\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Source Files\Drawing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="columnVertex.glsl">
+      <Filter>Resource Files\VertexShaders</Filter>
+    </None>
+    <None Include="columnFragment.glsl">
+      <Filter>Resource Files\FragmentShaders</Filter>
+    </None>
+    <None Include="columnGeometry.glsl">
+      <Filter>Resource Files\GeometryShaders</Filter>
+    </None>
+    <None Include="lineFragment.glsl">
+      <Filter>Resource Files\FragmentShaders</Filter>
+    </None>
+    <None Include="pointGeometry.glsl">
+      <Filter>Resource Files\GeometryShaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Log.txt">
+      <Filter>Resource Files\Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
